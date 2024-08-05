@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_button_event" id="JQ`nGo.$Z#]Bn6/J)w/?" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="robotbit_servo" id="p;OAIdaG+M|-0UO[TR6g"><field name="index">robotbit.Servos.S1</field><value name="degree"><shadow type="math_number_minmax" id="FXxD0_G_J{1Z[(]uoN|{"><mutation min="0" max="180" label="Degree" precision="0"></mutation><field name="SLIDER">0</field></shadow></value><next><block type="device_show_leds" id="*5K1P_d~$(vVQZ5I,F8*"><field name="LEDS">`
+        . . # . . 
+        . . . # . 
+        # # # # # 
+        . . . # . 
+        . . # . .
+        `</field><next><block type="device_pause" id="fO5$T3;2ZFv:drI}yG)l"><value name="pause"><shadow type="timePicker" id="FfXT3AQLGJH6RnPwBiIq"><field name="ms">1000</field></shadow></value></block></next></block></next></block></statement></block><block type="device_button_event" id="qm6W8#Q;,?`go/18t[-X" x="249" y="0"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="robotbit_servo" id="D535bt]X//W2!N1ybSFK"><field name="index">robotbit.Servos.S1</field><value name="degree"><shadow type="math_number_minmax" id="L|O]?i:oe/rg6mp:^x2Q"><mutation min="0" max="180" label="Degree" precision="0"></mutation><field name="SLIDER">90</field></shadow></value><next><block type="device_show_leds" id="Vqsu(WPsoUXw%Pz=.c:a"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # . # . # 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="device_pause" id="=lT!04m#.alDo83$BL(B"><value name="pause"><shadow type="timePicker" id="`/w,bw?}fdO8[5jO;8zD"><field name="ms">1000</field></shadow></value></block></next></block></next></block></statement></block><block type="device_button_event" id=",_.hN+Wj@,F@wDT`gXr_" x="499" y="0"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="robotbit_servo" id="$1Gpm7cB5Bfv-#LdF[`C"><field name="index">robotbit.Servos.S1</field><value name="degree"><shadow type="math_number_minmax" id="iUiRn]X#|bjw~Mn@2mr!"><mutation min="0" max="180" label="Degree" precision="0"></mutation><field name="SLIDER">180</field></shadow></value><next><block type="device_show_leds" id="}=k{g-OSX;$LvY49zTE-"><field name="LEDS">`
+        . . # . . 
+        . # . . . 
+        # # # # # 
+        . # . . . 
+        . . # . .
+        `</field><next><block type="device_pause" id="+-eX?Z}fh~nR]Z8}}vSO"><value name="pause"><shadow type="timePicker" id="L81F2R-u6~6o72870LBV"><field name="ms">1000</field></shadow></value></block></next></block></next></block></statement></block></xml>
